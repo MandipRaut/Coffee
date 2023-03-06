@@ -1,0 +1,120 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding: auto;
+}
+.navigation{
+    display: flex;
+    padding: 15px;
+    background-color: black;
+    height: 10vh;
+}
+.navigation h1{
+    margin-left: 50px;
+    color: white;
+}
+.navigation nav a{
+    padding: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.navigation nav{
+    margin-right: 10px;
+}
+.navigation nav a:hover{
+    color: rgb(12, 99, 9);
+}
+.para{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("about.jpg");
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-size: large;
+    padding: 100px;
+}
+.first{
+    text-align: center;
+    padding-top: 25vh;
+    font-weight: bolder;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("coff.jpg");
+    background-size: cover;
+    height: 60vh;
+    color: white;
+}
+.first .one{
+    font-size: 6vw;
+    margin-bottom: 10px;
+}
+.first .two{
+    margin-bottom: 60px;
+}
+.first a{
+    text-decoration: none;
+    color: white;
+    border-style: solid;
+    padding: 10px 20px;
+}
+.first a:hover{
+    color: gold;
+}
+.data{
+    padding: 10vh;
+    display: flex;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("cont.jpg");
+    background-size: cover;
+    height: 60vh;
+}
+.data ul li, p{
+    font-size: 1.5vw;
+}
+.data h1{
+    font-size: 3vw;
+    text-decoration: underline;
+}
+.data .form form ul li{
+    list-style: none;
+    padding: 15px;
+}
+.data .form form{
+    margin-left: -50px;
+}
+.fot footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    font-size: large;
+}
+.fot footer a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+#menu h1{
+    text-align: center;
+}
+#menu{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("food.jpg");
+    background-size: cover;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.hot, .cold{
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+}
+#menu img{
+    width: 100%;
+    height: 20%;
+}
+#menu p{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
